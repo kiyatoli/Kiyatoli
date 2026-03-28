@@ -1,0 +1,55 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply antialiased;
+}
+
+.section-pad {
+  @apply px-6 py-20 sm:px-10 lg:px-20;
+}
+
+.glass {
+  @apply bg-white/70 dark:bg-ink-800/70 backdrop-blur border border-white/50 dark:border-ink-700;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #33c3f0, #ffb347);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.tag {
+  @apply inline-flex items-center gap-2 rounded-full border border-ink-200 dark:border-ink-700 px-3 py-1 text-xs font-semibold uppercase tracking-widest;
+}
+
+.nav-link {
+  @apply text-sm font-semibold text-ink-700 dark:text-ink-200 hover:text-ink-900 dark:hover:text-white transition;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink-900 text-white dark:bg-white dark:text-ink-900 px-6 py-3 text-sm font-semibold shadow-soft hover:shadow-glow transition;
+}
+
+.button-ghost {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-300 dark:border-ink-700 px-6 py-3 text-sm font-semibold text-ink-800 dark:text-ink-100 hover:border-ink-500 dark:hover:border-ink-500 transition;
+}
+
+.card {
+  @apply rounded-2xl border border-ink-100 dark:border-ink-800 bg-white dark:bg-ink-900/80 p-6 shadow-soft;
+}
+
+@media (min-width: 768px) {
+  .section-pad {
+    @apply py-24;
+  }
+}
