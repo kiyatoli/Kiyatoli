@@ -85,10 +85,10 @@ export default function Hero() {
               <div className="relative flex flex-col items-center gap-6 text-center">
                 <div className="h-44 w-44 overflow-hidden rounded-2xl border border-ink-100 dark:border-ink-800 shadow-soft">
                   <img
-  src="/Photo/122A233745.JPG"
-  alt="Kiyatoli Abduljelil"
-  className="h-full w-full object-cover"
-/>
+                     src="/Photo/122A2337.JPG"
+                     alt="Kiyatoli Abduljelil"
+                     className="h-full w-full object-cover"
+                  />
                 </div>
                 <div>
                   <p className="text-lg font-semibold">Kiyatoli Abduljelil</p>
