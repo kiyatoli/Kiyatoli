@@ -101,7 +101,7 @@ export default function Contact() {
               </span>
               <div>
                 <p className="text-sm text-ink-500">Portfolio</p>
-                <p className="font-semibold">kiyatoli.github.io/kiya/</p>
+                <p className="font-semibold">kiyatoli.vercel.app</p>
               </div>
             </div>
           </div>
